@@ -16,4 +16,4 @@ The default bibtex exports from Semantic Scholar(S2) libraries do not include DO
 
 # How does it work?
 
-We basically use the official S2 API to fetch full information with S2-assigned `CorpusId` number. The basic lookup quota is pretty generous and shoud suffice most library sizes.
+We basically use the official S2 API to fetch full information with S2-assigned `CorpusId` number. The basic lookup quota is pretty generous and should suffice most library sizes.
