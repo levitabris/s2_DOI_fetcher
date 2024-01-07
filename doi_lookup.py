@@ -19,7 +19,7 @@ def lookup_dois(bib_file):
 
     # Loop through bibtex entries
     for entry in bib_database.entries:
-        print('=' * 120)
+        print('=' * 110)
         if 'doi' not in entry:
             # Check if corpus ID is available
             corpus_id = entry.get('url').split(':')[2]
@@ -50,7 +50,7 @@ def lookup_dois(bib_file):
                     missing += [entry.get('title')]
                     print(f"❌No DOI found for: {entry['ID']}")
 
-    print('=' * 120)
+    print('=' * 110)
     print(f'Found [{lookup_length - len(missing)} / {lookup_length}] DOIs\nMissing ones are:')
     print(''.join(['\n❓' + title for title in missing]))
 
