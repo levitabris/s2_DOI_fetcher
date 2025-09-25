@@ -5,13 +5,16 @@ The default bibtex exports from Semantic Scholar(S2) libraries do not include DO
 
 # How to use?
 
-1. Install the deps
+1. Prepare the environment
    ```
-   pip install -r requirements.txt
+   uv sync
+   source .venv/bin/activate
    ```
+   Use `source .venv/bin/activate.fish` if you are using fish shell. Same applies to other shells.
+
 2. Run in CLI
    ```
-   python doi_lookup.py my_semantic_scholar_exported.bib
+   uv run doi_lookup.py my_semantic_scholar_exported.bib
    ```
 3. Check the results.
 

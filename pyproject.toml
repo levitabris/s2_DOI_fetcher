@@ -1,0 +1,10 @@
+[project]
+name = "s2-doi-fetcher"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13.2"
+dependencies = [
+    "bibtexparser>=1.4.3",
+    "requests>=2.32.5",
+]
